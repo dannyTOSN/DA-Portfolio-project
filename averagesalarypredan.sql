@@ -1,0 +1,4 @@
+SELECT FirstName,LastName,JOBTITLE,Department,Salary
+FROM PredanSalaryScheme
+join PredanEventPayroll2023
+ON PredanSalaryScheme.EmployeeID=PredanEventPayroll2023.EmployeeID
